@@ -16,18 +16,18 @@
 			"node": {
 				"types": "./index.d.ts",
 				"import": "./index.js",
-				"require": "./index.js"
+				"module-sync": "./index.js"
 			},
 			"default": {
 				"types": "./core.d.ts",
 				"import": "./core.js",
-				"require": "./core.js"
+				"module-sync": "./core.js"
 			}
 		},
 		"./core": {
 			"types": "./core.d.ts",
 			"import": "./core.js",
-			"require": "./core.js"
+			"module-sync": "./core.js"
 		}
 	},
 	"sideEffects": false,
